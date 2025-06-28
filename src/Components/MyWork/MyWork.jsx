@@ -1,6 +1,8 @@
 import React from 'react'
 import './MyWork.css'
 import wall from '../../assets/wall.jpg'
+import mywork_data from '../../assets/mywork_data'
+import arrow_icon from '../../assets/arrow_icon.png'
 
 const MyWork = () => {
   return (
@@ -10,9 +12,15 @@ const MyWork = () => {
             <img src={wall} alt='' />
         </div>
         <div className="mywork-container">
-            
+        {mywork_data.map((work,index)=>{
+            return <img key={index} src={work.w_img} alt='' />
+
+        })}
         </div>
-        
+        <div className="mywork-showmore">
+            <p>Show More</p>
+            <img src={arrow_icon} alt='' />
+        </div>
         
     </div>
   )
