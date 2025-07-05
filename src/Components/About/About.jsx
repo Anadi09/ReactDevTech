@@ -1,23 +1,29 @@
 import React from 'react'
 import './About.css'
 import usgs from '../../assets/usgs.jpg'
-import wall from '../../assets/wall.jpg'
+import about_img from '../../assets/about_img.jpg'
 
 const About = () => {
   return (
-    <div className='about'>
+    <div id='about' className='about'>
         <div className="about-title">
             <h1>About me</h1>
             <img src={usgs} alt=''/>
         </div>
         <div className="about-sections">
             <div className="about-left">
-                <img src={wall} alt='' />
+                <img src={about_img} alt='' />
             </div>
             <div className="about-right">
                 <div className="about-para">
                     <p>I am experienced FullStack developer with over the manage project</p>
-                    <p>My passion for developent in Java remains one of the major platforms for developing enterprise applications. Enterprise Applications are used by large companies to make money.</p>
+                    <p>I'm a passionate and detail-oriented developer with a strong foundation 
+                        in software development and a commitment to building efficient, scalable,
+                         and user-friendly solutions. With a blend of problem-solving skills and creativity,
+                          I enjoy transforming ideas into real-world applications. I'm constantly learning and
+                           staying up-to-date with the latest technologies to deliver high-quality code and collaborate
+                            effectively within cross-functional teams.                        
+                    </p>
                 </div>
                 <div className="about-skills">
                     <div className="about-skill">

@@ -16,13 +16,13 @@
     },
     {
         s_no:"04",
-        s_name:"App design",
-        s_desc:"Web development is the process of bulding, programming....."
+        s_name:"UI/UX Design",
+        s_desc:"Design System Development,Wireframing & Prototyping & Responsive Design...."
     },
     {
         s_no:"05",
-        s_name:"App design",
-        s_desc:"Web development is the process of bulding, programming....."
+        s_name:"API Integration",
+        s_desc:"Custom API Development,& RESTful & GraphQL APIs programming....."
     },
     {
         s_no:"06",

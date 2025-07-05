@@ -1,11 +1,11 @@
 import React from 'react'
 import './Hero.css'
-import profile_img from '../../assets/profile_img.png'
+import profile_img from '../../assets/profile_img.jpg'
 
 
 const Hero = () => {
   return (
-    <div className='hero'>
+    <div id='home' className='hero'>
         <img src={profile_img} alt='' />
         <h1><span>I'm Anadi mishra </span>, fullsatack developer based on India.</h1>
         <p>I am a fullsatack developer from delhi,India withd 5 years of development</p>

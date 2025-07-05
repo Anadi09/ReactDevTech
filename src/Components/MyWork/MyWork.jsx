@@ -1,15 +1,15 @@
 import React from 'react'
 import './MyWork.css'
-import wall from '../../assets/wall.jpg'
+import usgs from '../../assets/usgs.jpg'
 import mywork_data from '../../assets/mywork_data'
 import arrow_icon from '../../assets/arrow_icon.png'
 
 const MyWork = () => {
   return (
-    <div className='mywork'>
+    <div id='work' className='mywork'>
         <div className="mywork-title">
             <h1>My Latest Work</h1>
-            <img src={wall} alt='' />
+            <img src={usgs} alt='' />
         </div>
         <div className="mywork-container">
         {mywork_data.map((work,index)=>{
